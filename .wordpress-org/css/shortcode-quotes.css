@@ -1,0 +1,20 @@
+/*Shortcode Styles*/
+
+.qt-table tbody tr:not(:first-of-type) {
+    border-top: 1px solid #f1f1f1;
+}
+.qt-table tbody tr:nth-child(2n) {
+    background-color: inherit;
+}
+.qt-image {
+    max-height: 150px;
+    max-width: 150px;
+}
+@media only screen and (max-device-width: 480px) {
+    .qt-table tbody tr td:first-of-type {
+        display: none;
+    }
+}
+.qt-author {
+    font-size: 0.9rem;
+}
